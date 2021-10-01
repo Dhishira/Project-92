@@ -62,12 +62,12 @@ function check()
    
     if(answer_turn == "player1")
     {
-        question_turn = "player2";
+        answer_turn = "player2";
         document.getElementById("player_answer").innerHTML = "Answer Turn : "+player2;
     }
     else
     {
-        question_turn = "player1";
+        answer_turn = "player1";
         document.getElementById("player_answer").innerHTML = "Answer Turn : "+player1;
     }
 
